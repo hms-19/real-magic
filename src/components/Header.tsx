@@ -9,7 +9,7 @@ export function Header() {
           <div className="flex items-center">
             <div className="flex items-center">
               <img 
-                src={'logo.png'} 
+                src={'/logo.png'} 
                 alt="Real Magic" 
                 className="h-8 w-auto hover:scale-105 transition-transform duration-300 ease-out cursor-pointer"
               />
