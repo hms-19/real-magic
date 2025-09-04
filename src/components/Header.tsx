@@ -1,4 +1,5 @@
 import { Button } from "./ui/button";
+import logo from "../assets/logo.png";
 
 export function Header() {
   return (
@@ -9,7 +10,7 @@ export function Header() {
           <div className="flex items-center">
             <div className="flex items-center">
               <img 
-                src={'/logo.png'} 
+                src={logo} 
                 alt="Real Magic" 
                 className="h-8 w-auto hover:scale-105 transition-transform duration-300 ease-out cursor-pointer"
               />
